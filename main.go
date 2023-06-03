@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Shivamycodee/myGoModule/mystrings"
+)
 
 func main(){
-	fmt.Println("working");
+	fmt.Println(mystrings.Reverse("shivam"));
 }
